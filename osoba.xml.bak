@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Osoba>
+	<Student>
+		<Nr>6666</Nr>
+		<Imie>Anna</Imie>
+		<Nazwisko>Lechowicz</Nazwisko>
+		<Telefon>776-667-232</Telefon>
+	</Student>
+	<Student>
+		<Nr>6667</Nr>
+		<Imie>Jan</Imie>
+		<Nazwisko>Kowalski</Nazwisko>
+		<Telefon>656-455-209</Telefon>
+	</Student>
+	<Student>
+		<Nr>6668</Nr>
+		<Imie>Patrycja</Imie>
+		<Nazwisko>Rudla</Nazwisko>
+		<Telefon/>
+	</Student>
+</Osoba>

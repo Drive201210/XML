@@ -1,0 +1,43 @@
+function ajax(url)
+{
+  var ajax;
+  var txt,grupa,atrybut;
+  if (window.XMLHttpRequest){
+    ajax=new XMLHttpRequest();
+  }
+  ajax.onreadystatechange=function(){
+    if (ajax.readyState==4){
+    txt="<table border='1'><tr><th>Imie</th><th>Nazwisko</th><th>Telefon</th></tr>";
+    grupa=ajax.responseXML.getElementsByTagName("Student");
+    for (var i=0;i<grupa.length;i++){
+      txt+="<tr>";
+      atrybut=grupa[i].getElementsByTagName("Imie");
+      try{
+        txt+="<td>" + atrybut[0].firstChild.nodeValue + "</td>";
+      }catch(er){
+        txt+="<td> </td>";
+      }
+      
+	  atrybut=grupa[i].getElementsByTagName("Nazwisko");
+      try{
+        txt+="<td>" + atrybut[0].firstChild.nodeValue + "</td>";
+      }catch(er){
+        txt+="<td> </td>";
+      }
+        
+      atrybut=grupa[i].getElementsByTagName("Telefon");
+      ///try{//
+        txt+="<td>" + atrybut[0].firstChild.nodeValue + "</td>";
+      //}catch(er){//
+        txt+="<td> </td>";
+      //}
+        
+      txt+="</tr>";
+    }
+    txt+="</table>";
+    document.getElementById('wynik').innerHTML=txt;
+    }
+  }
+ajax.open("GET",url,true);
+ajax.send();
+}

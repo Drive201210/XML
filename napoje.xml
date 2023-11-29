@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Napoje>
+    <!-- <Napoj>
+        <Nazwa> </Nazwa>
+        <Cena> </Cena>
+        <Zdjecie> </Zdjecie>
+        <Rodzaj> </Rodzaj>
+    </Napoj> -->
+
+    <Napoj>
+        <Nazwa>Lipton</Nazwa>
+        <Cena>6</Cena>
+        <Zdjecie>Images/lipton.jpeg</Zdjecie>
+        <Rodzaj>Niegazowane</Rodzaj>
+    </Napoj>
+
+    <Napoj>
+        <Nazwa>Tymbark</Nazwa>
+        <Cena>5</Cena>
+        <Zdjecie>Images/tymbark.jpg</Zdjecie>
+        <Rodzaj>Soki</Rodzaj>
+    </Napoj>
+
+    <Napoj>
+        <Nazwa>Muller</Nazwa>
+        <Cena>6</Cena>
+        <Zdjecie>Images/muller.jpeg</Zdjecie>
+        <Rodzaj>Shake</Rodzaj>
+    </Napoj>
+
+    <Napoj>
+        <Nazwa>Shake</Nazwa>
+        <Cena>6</Cena>
+        <Zdjecie>Images/shake.jpeg</Zdjecie>
+        <Rodzaj>Shake</Rodzaj>
+    </Napoj>
+
+    <Napoj>
+        <Nazwa>Kawa w puszce</Nazwa>
+        <Cena>3</Cena>
+        <Zdjecie>Images/kawa.webp</Zdjecie>
+        <Rodzaj>Z Kofeinem</Rodzaj>
+    </Napoj>
+    
+
+    <Napoj>
+        <Nazwa>Red Bull</Nazwa>
+        <Cena>5</Cena>
+        <Zdjecie>Images/redbull.jpeg</Zdjecie>
+        <Rodzaj>Z Kofeinem</Rodzaj>
+    </Napoj>
+
+    <Napoj>
+        <Nazwa>Monster</Nazwa>
+        <Cena>5.5</Cena>
+        <Zdjecie>Images/mpnster.webp</Zdjecie>
+        <Rodzaj>Z Kofeinem</Rodzaj>
+    </Napoj>
+
+    <Napoj>
+        <Nazwa>Lemoniada</Nazwa>
+        <Cena>7</Cena>
+        <Zdjecie>Images/lemonada1.jpeg</Zdjecie>
+        <Rodzaj>Lemonada</Rodzaj>
+    </Napoj>
+
+    <Napoj>
+        <Nazwa>Coca-Cola</Nazwa>
+        <Cena>7</Cena>
+        <Zdjecie>Images/cocacola.webp</Zdjecie>
+        <Rodzaj>Gazowane</Rodzaj>
+    </Napoj>
+
+    <Napoj>
+        <Nazwa>Sprite</Nazwa>
+        <Cena>7</Cena>
+        <Zdjecie>Images/sprite.webp </Zdjecie>
+        <Rodzaj>Gazowane</Rodzaj>
+    </Napoj>
+
+    <Napoj>
+        <Nazwa>Hortex</Nazwa>
+        <Cena>5</Cena>
+        <Zdjecie> Images/hortex.jpeg</Zdjecie>
+        <Rodzaj>Niegazowane</Rodzaj>
+    </Napoj>
+
+    <Napoj>
+        <Nazwa>Mirinda</Nazwa>
+        <Cena>7</Cena>
+        <Zdjecie> Images/mirinda.jpeg</Zdjecie>
+        <Rodzaj>Gazowane</Rodzaj>
+    </Napoj>
+</Napoje>

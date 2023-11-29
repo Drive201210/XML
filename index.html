@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="ajax.js"></script>
+  <script type="text/javascript" src="style.js"></script>
+  <link rel="stylesheet" rev="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div id="nav-bar">
+      <div class="logo">
+        <img class="img_logo" src="Images/frappe.gif" alt="logo" />
+      </div>
+      <div class="tytul">
+        <h1>Napoje</h1>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div id="przy">
+      <select id="opcja">
+        <option>--Wybierz--</option>
+        <option>Niegazowane</option>
+        <option>Gazowane</option>
+        <option>Lemonada</option>
+        <option>Z Kofeinem</option>
+        <option>Shake</option>
+        <option>Soki</option>
+      </select>
+      <button onclick="ajax();">Pokaz liste</button>
+    </div>
+    <div id="wynik">
+    </div>
+  </main>
+  <footer>
+    <marquee direction="right" scrollamount="10">Roman Netsevych 4i4a</marquee>
+  </footer>
+
+</body>
+
+</html>
